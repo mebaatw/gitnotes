@@ -18,3 +18,39 @@ Commands:
 Refresh repo page and check commits.
 
 
+NPM:
+- Download latest LTS NPM
+- Comes with Node with v8 engine which allows you to run JS outside of the browser.
+> npm -v 
+> node -v 
+> npm init -> Will create package.json file in your directory
+	package name:
+	version:
+	description:
+	entry point:
+	test command:
+	git repository:
+	keywords:
+	author:
+	liscense:
+
+- all you need in git repo is the package.json file to recreate node packages.
+> npm install
+> npm run [name] --> runs command [name] defined in package.json under "Scripts"
+  -ie: "build": "browserify script.js > bundle.js && live-server"
+        > npm run build
+	
+- install live-server
+	> npm install -g live-server  -> global
+	> live-server  -> run from working directory
+
+- install lodash
+	> npm -i --save lodash	 -> local to working directory
+	or 
+	> npm install lodash --> doesn't save it to your computer
+	- creates node_modules folder
+	> npm install -g browserify
+	> browserify script.js > bundle.js --> creates bundle.js file with a js file that browser understands
+	- replace script.js in html with bundle.js
+
+
