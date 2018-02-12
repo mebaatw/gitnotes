@@ -54,3 +54,41 @@ NPM:
 	- replace script.js in html with bundle.js
 
 
+
+React:
+- Components
+- Virtual DOM
+
+- create-react-app 
+	- this tool is a global package that you want to install from NPM.
+	- it creates a starter project that contains
+		Babel
+		Webpack
+		latest JS features
+		lint
+		debugging
+		etc...
+> npm install -g create-react-app  --> install the app
+> create-react-app robofriends --> creat app called robofriends
+	Success! Created robofriends at \react\robofriends
+	Inside that directory, you can run several commands:
+
+	  npm start
+	    Starts the development server.
+
+	  npm run build
+	    Bundles the app into static files for production.
+
+	  npm test
+	    Starts the test runner.
+
+	  npm run eject
+	    Removes this tool and copies build dependencies, configuration files
+	    and scripts into the app directory. If you do this, you can’t go back!
+
+	  We suggest that you begin by typing:
+
+		  cd robofriends
+		  npm start
+
+> npm install tachyons  --> css classes like bootstrap
